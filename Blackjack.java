@@ -85,7 +85,7 @@ public class Blackjack {
         System.out.println("\nYour hand:");
         playerHand.display();
         System.out.println("Dealer's hand:");
-        System.out.println(dealerHand.display().get(0)); // Display only the first card of the dealer
+        dealerHand.displayFirstCard(); // Display only the first card of the dealer
 
         // Player's turn
         playPlayerTurn(scanner);

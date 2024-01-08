@@ -43,6 +43,10 @@ class Hand {
         }
     }
 
+    public void displayFirstCard() {
+        System.out.println(cards.get(0));
+    }
+
     public void displayAt(int pos) {
         System.out.println(cards.get(pos));
     }
